@@ -7,4 +7,4 @@ rom路径：OzgJSNES/roms，在OzgJSNES/js/index.js修改对应rom的路径。�
 
 ================
 
-UI布局和文字在 /OzgJSNES/js/lib/jsnes/ui.js 修改。状态文字搜索updateStatus部分可修改。
+UI布局和文字在 OzgJSNES/js/lib/jsnes/ui.js 修改。状态文字搜索updateStatus部分可修改。
