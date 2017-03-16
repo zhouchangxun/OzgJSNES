@@ -1,7 +1,7 @@
 
 require.config({
     paths: {
-        "jquery": "http://libs.useso.com/js/jquery/2.1.1/jquery.min",
+        "jquery": "lib/jquery.min",
 		"dynamicaudio": "lib/dynamicaudio-min",		
 		"jsnes_nes": "lib/jsnes/nes",
 		"jsnes_utils": "lib/jsnes/utils",

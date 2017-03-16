@@ -36,8 +36,9 @@ if (typeof jQuery !== 'undefined') {
                  * Create UI
                  */
                 self.root = $('<div></div>');
-                self.screen = $('<canvas class="nes-screen" width="256" height="240"></canvas>').appendTo(self.root);
-                
+                //self.screen = $('<canvas class="nes-screen" width="256" height="240"></canvas>').appendTo(self.root);
+                self.screen = $('<canvas class="nes-screen" width="512" height="480"></canvas>').appendTo(self.root);
+
                 if (!self.screen[0].getContext) {
                     parent.html("请使用支持html5 canves的浏览器打开本页面！");
                     return;
